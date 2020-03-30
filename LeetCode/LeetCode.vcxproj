@@ -148,6 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="LeetCode10.cpp" />
+    <ClCompile Include="LeetCode18.cpp" />
+    <ClCompile Include="LeetCode5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
