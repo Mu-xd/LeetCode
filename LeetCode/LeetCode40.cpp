@@ -4,13 +4,12 @@
 //using namespace std;
 //class Solution {
 //public:
-//	vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+//	vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
 //		sort(candidates.begin(), candidates.end());
-//		auto res = Sum(candidates, target,0);
-//		//res.erase(unique(res.begin(), res.end()), res.end());
+//		auto res = Sum(candidates, target, 0);
 //		return res;
 //	}
-//	vector<vector<int>> Sum(vector<int>& candidates, int target,int s)
+//	vector<vector<int>> Sum(vector<int>& candidates, int target, int s)
 //	{
 //		//结束条件
 //		vector<vector<int>> res;
@@ -21,9 +20,13 @@
 //			//这影响最后的排序 和剪枝
 //			if (candidates[i] < s)
 //				continue;
+//			if (i > 0 && candidates[i] == candidates[i - 1])
+//				continue;
 //			if (candidates[i] < target)
 //			{
-//				auto r = Sum(candidates, target - candidates[i], candidates[i]);
+//				auto x = candidates;
+//				x.erase(x.begin() + i);
+//				auto r = Sum(x, target - candidates[i], candidates[i]);
 //				if (r != vector<vector<int>>())
 //				{
 //					for (int j = 0; j < r.size(); j++)
@@ -45,9 +48,9 @@
 //int main()
 //{
 //	vector<int> candidates = {
-//		8,7,4,3
+//		10,1,2,7,6,1,5
 //	};
-//	int target = 11;
+//	int target = 8;
 //	Solution S;
-//	S.combinationSum(candidates, target);
+//	S.combinationSum2(candidates, target);
 //}
