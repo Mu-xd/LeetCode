@@ -164,6 +164,7 @@
     <ClCompile Include="LeetCode39.cpp" />
     <ClCompile Include="LeetCode40.cpp" />
     <ClCompile Include="LeetCode41.cpp" />
+    <ClCompile Include="LeetCode42.cpp" />
     <ClCompile Include="LeetCode5.cpp" />
   </ItemGroup>
   <ItemGroup>
