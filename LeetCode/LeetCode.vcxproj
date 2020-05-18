@@ -151,6 +151,7 @@
     <ClCompile Include="LeetCode10.cpp" />
     <ClCompile Include="LeetCode138.cpp" />
     <ClCompile Include="LeetCode141.cpp" />
+    <ClCompile Include="LeetCode152.cpp" />
     <ClCompile Include="LeetCode18.cpp" />
     <ClCompile Include="LeetCode2.cpp" />
     <ClCompile Include="LeetCode25.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="LeetCode42.cpp" />
     <ClCompile Include="LeetCode43.cpp" />
     <ClCompile Include="LeetCode44.cpp" />
+    <ClCompile Include="LeetCode46.cpp" />
     <ClCompile Include="LeetCode5.cpp" />
   </ItemGroup>
   <ItemGroup>
