@@ -1,9 +1,11 @@
 //#include<iostream>
 //#include<vector>
+//#include <algorithm>
 //using namespace std;
 //class Solution {
 //public:
-//    vector<vector<int>> permute(vector<int>& nums) {
+//    vector<vector<int>> permuteUnique(vector<int>& nums) {
+//        sort(nums.begin(), nums.end());
 //        return permute_son(nums, vector<vector<int>>());
 //    }
 //private:
@@ -15,6 +17,8 @@
 //        vector<vector<int>> res;
 //        for (int i = 0; i < nums.size(); i++)
 //        {
+//            if (i > 0 && nums[i - 1] == nums[i])
+//                continue;
 //            int x = nums[i];
 //            nums.erase(nums.begin() + i);
 //            auto sx = permute_son(nums, s);
@@ -30,7 +34,7 @@
 //};
 //int main()
 //{
-//	vector<int> nums = { 1,2,3 };
+//	vector<int> nums = { 1,1,1 };
 //    Solution S;
-//    S.permute(nums);
+//    auto q =S.permuteUnique(nums);
 //}
