@@ -11,6 +11,7 @@
 //        vector<vector<bool>> res_tab(s.length(), vector<bool>(s.length(), false));
 //        //用于记录结果信息
 //        int maxlen = 0, start = 0, end = 0;
+//		  //这里一定先遍历长度 先解决了 所有小长度的再查大长度的东西
 //        //第一层遍历的是长度  按照长度从小到大来寻找结果
 //        for (int len = 1; len <= s.length(); len++)
 //        {
