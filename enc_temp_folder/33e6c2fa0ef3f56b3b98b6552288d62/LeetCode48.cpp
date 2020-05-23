@@ -15,7 +15,6 @@ public:
         //        matrix[j][matrix.size() - 1 - i] = x;
         //    }
         //}
-        //先横向反转
         for (int i = 0; i < matrix.size(); i++)
         {
             for (int j = 0; j < matrix.size()/2; j++)
@@ -25,7 +24,6 @@ public:
                 matrix[i][matrix.size() - 1 - j] = x;
             }
         }
-        //再对角线交换
         for (int i = 0; i < matrix.size() - 1; i++)
         {
             for (int j = 0; j < matrix.size()  - i - 1; j++)

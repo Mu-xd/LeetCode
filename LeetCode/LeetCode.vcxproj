@@ -174,6 +174,7 @@
     <ClCompile Include="LeetCode48.cpp" />
     <ClCompile Include="LeetCode5.cpp" />
     <ClCompile Include="LeetCode680.cpp" />
+    <ClCompile Include="LeetCode76.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt" />
