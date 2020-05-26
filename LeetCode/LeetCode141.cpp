@@ -26,7 +26,7 @@
 //	//	}
 //	//	return false;
 //	//}
-//	//方法2 自己指向自己
+//	//方法2 自己指向自己(不断的缩短链表)
 //	bool hasCycle(ListNode* head) {
 //		while (head != NULL && head->next != NULL)
 //		{
