@@ -150,6 +150,7 @@
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LeetCode10.cpp" />
     <ClCompile Include="LeetCode101.cpp" />
+    <ClCompile Include="LeetCode128.cpp" />
     <ClCompile Include="LeetCode1371.cpp" />
     <ClCompile Include="LeetCode138.cpp" />
     <ClCompile Include="LeetCode141.cpp" />
